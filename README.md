@@ -10,12 +10,9 @@ calendar with Government of Nepal holidays, festivals and tithi. Works offline.
 brew install --cask ssarthaks/tap/sajilo-patro
 ```
 
-or, in two steps:
-
-```bash
-brew tap ssarthaks/tap
-brew install --cask sajilo-patro
-```
+This taps `ssarthaks/tap` and, on Homebrew 7 or later, also trusts the `sajilo-patro` cask (Homebrew
+only loads casks from taps you trust). Use the full name above for the first install; after that the
+short name `sajilo-patro` works.
 
 ## Upgrade
 

@@ -2,8 +2,7 @@ cask "sajilo-patro" do
   version "1.1.0"
   sha256 "1446f1e6a6910152f2ed9a77cb51dd52bac763568b5bd44af6943ed09c5f2b31"
 
-  url "https://github.com/ssarthaks/nepali-calendar-dmg/releases/download/desktop-v#{version}/SajiloPatro-#{version}.dmg",
-      verified: "github.com/ssarthaks/nepali-calendar-dmg/"
+  url "https://github.com/ssarthaks/nepali-calendar-dmg/releases/download/desktop-v#{version}/SajiloPatro-#{version}.dmg"
   name "Sajilo Patro"
   name "Nepali Calendar"
   desc "Menu bar Bikram Sambat calendar with Nepali holidays"
