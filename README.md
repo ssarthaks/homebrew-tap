@@ -1,20 +1,38 @@
-# Homebrew tap: Sajilo Patro
+# 🇳🇵 Sajilo Patro
 
-**Sajilo Patro** (Nepali Calendar) by Sarthak Sharma: a free macOS menu bar Bikram Sambat (BS)
-calendar with Government of Nepal holidays, festivals and tithi. Works offline.
-[nepali-calendar.sarthaksharma.com.np](https://nepali-calendar.sarthaksharma.com.np/)
+**A free Nepali calendar for your Mac's menu bar.**
+
+View today's Bikram Sambat date, festivals, public holidays and daily Tithi — all in one place. Works offline.
+
+🌐 [Website](https://nepali-calendar.sarthaksharma.com.np)
 
 ## Install
+
+Open Terminal and run:
 
 ```bash
 brew install --cask ssarthaks/tap/sajilo-patro
 ```
 
-This taps `ssarthaks/tap` and, on Homebrew 7 or later, also trusts the `sajilo-patro` cask (Homebrew
-only loads casks from taps you trust). Use the full name above for the first install; after that the
-short name `sajilo-patro` works.
+**Requirements:** macOS 11 Big Sur or later · Apple Silicon & Intel.
 
-## Upgrade
+## ⚠️ First Launch (Important)
+
+Sajilo Patro is currently not signed or notarized with an Apple Developer ID, so macOS may block it from opening.
+
+To open it:
+
+1. Try opening **Sajilo Patro** from Applications.
+2. Open **System Settings → Privacy & Security**.
+3. Scroll down to the Security section.
+4. Find the message about Sajilo Patro and click **Open Anyway**.
+5. Confirm to launch the app.
+
+You only need to do this when macOS blocks a new version.
+
+Only bypass this warning if you downloaded Sajilo Patro from the official website or Homebrew tap and trust the app.
+
+## Update
 
 ```bash
 brew update
@@ -25,17 +43,14 @@ brew upgrade --cask sajilo-patro
 
 ```bash
 brew uninstall --cask sajilo-patro
-# also remove settings, the licence file and the login item:
+```
+
+To also remove app settings, licence data and login items:
+
+```bash
 brew uninstall --zap --cask sajilo-patro
 ```
 
-## First launch
+---
 
-Releases are not yet signed with an Apple Developer ID or notarized by Apple, so macOS blocks the
-first launch. Open **System Settings → Privacy & Security**, scroll to the message about
-Sajilo Patro and click **Open Anyway**, then confirm. You only need to do this once per version.
-Only do this for apps you trust and installed from this tap.
-
-Requirements: macOS 11 Big Sur or later, on Apple Silicon or Intel.
-
-`Casks/sajilo-patro.rb` is updated for every release.
+Made with ❤️ in Nepal by [Sarthak Sharma](https://sarthaksharma.com.np).
