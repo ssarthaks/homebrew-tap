@@ -1,6 +1,6 @@
 cask "sajilo-patro" do
-  version "1.2.2"
-  sha256 "43c03329acdcc4c88f0525f789bf35e723b2e0febda4cae6c253c26bb42bcf44"
+  version "1.2.3"
+  sha256 "64f6d3f7dba7390bd88bbf037286c1baefae38381accd9c6c59286d35753419d"
 
   url "https://github.com/ssarthaks/nepali-calendar-dmg/releases/download/desktop-v#{version}/SajiloPatro-#{version}.dmg"
   name "Sajilo Patro"
