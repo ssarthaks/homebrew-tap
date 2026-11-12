@@ -1,6 +1,6 @@
 cask "sajilo-patro" do
-  version "2.1.2"
-  sha256 "5512e4362ddb6bce353a4d898fb3c554788016f422db509cad1769020007ff4d"
+  version "2.2.0"
+  sha256 "4a6b213ce54afed8c5e9745c4b426c0371da8ac95e00406e17f6a77005aaa7ea"
 
   url "https://github.com/ssarthaks/nepali-calendar-dmg/releases/download/desktop-v#{version}/SajiloPatro-#{version}.dmg"
   name "Sajilo Patro"
@@ -14,6 +14,8 @@ cask "sajilo-patro" do
     strategy :github_releases
   end
 
+  # The app updates itself (Settings → About), so Homebrew does not upgrade it behind its back.
+  auto_updates true
   # macOS 11 Big Sur or later (tauri.conf.json), which is also Homebrew's own minimum.
   depends_on :macos
 
