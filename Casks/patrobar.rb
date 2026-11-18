@@ -1,9 +1,9 @@
-cask "sajilo-patro" do
-  version "2.3.2"
-  sha256 "5f8a65570281ca9df76af098963f193eaa54c3a6dacdebedc1ce9ea48f4a630e"
+cask "patrobar" do
+  version "2.4.0"
+  sha256 "2991bd1a54ac62a4265c5ac8cb331ce1242f0ee247df0a168119641f1bf24392"
 
-  url "https://github.com/ssarthaks/nepali-calendar-dmg/releases/download/desktop-v#{version}/SajiloPatro-#{version}.dmg"
-  name "Sajilo Patro"
+  url "https://github.com/ssarthaks/nepali-calendar-dmg/releases/download/desktop-v#{version}/Patrobar-#{version}.dmg"
+  name "Patrobar"
   name "Nepali Calendar"
   desc "Menu bar Bikram Sambat calendar with Nepali holidays"
   homepage "https://nepali-calendar.sarthaksharma.com.np/"
@@ -19,10 +19,11 @@ cask "sajilo-patro" do
   # macOS 11 Big Sur or later (tauri.conf.json), which is also Homebrew's own minimum.
   depends_on :macos
 
-  app "Sajilo Patro.app"
+  app "Patrobar.app"
 
   # macOS 13+ registers "Open at login" with SMAppService, which macOS removes with the app.
-  # macOS 11-12 use a LaunchAgent labelled "Sajilo Patro".
+  # macOS 11-12 use a LaunchAgent labelled "Sajilo Patro" (the app's name before 2.4.0; the label is
+  # kept so existing login items keep working).
   uninstall launchctl: "Sajilo Patro",
             quit:      "np.com.sarthaksharma.sajilopatro"
 
@@ -35,10 +36,10 @@ cask "sajilo-patro" do
   ]
 
   caveats <<~EOS
-    Sajilo Patro is not signed with an Apple Developer ID or notarized yet.
+    Patrobar is not signed with an Apple Developer ID or notarized yet.
     macOS will block the first launch. To allow it, open
       System Settings → Privacy & Security
-    and click "Open Anyway" next to the Sajilo Patro message, then confirm.
+    and click "Open Anyway" next to the Patrobar message, then confirm.
     Only do this if you installed it from the official tap.
   EOS
 end
