@@ -1,12 +1,12 @@
 cask "patrobar" do
-  version "2.4.0"
-  sha256 "2991bd1a54ac62a4265c5ac8cb331ce1242f0ee247df0a168119641f1bf24392"
+  version "2.4.1"
+  sha256 "79f6f677d10ae1a6f23bb5832338998a2ad8b18c096181809c43d5f83328db45"
 
   url "https://github.com/ssarthaks/nepali-calendar-dmg/releases/download/desktop-v#{version}/Patrobar-#{version}.dmg"
   name "Patrobar"
   name "Nepali Calendar"
   desc "Menu bar Bikram Sambat calendar with Nepali holidays"
-  homepage "https://nepali-calendar.sarthaksharma.com.np/"
+  homepage "https://patrobar.sarthaksharma.com.np/"
 
   livecheck do
     url :url

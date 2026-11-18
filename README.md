@@ -2,7 +2,7 @@
 
 **Patrobar** (Nepali Calendar) by Sarthak Sharma: a free macOS menu bar Bikram Sambat (BS)
 calendar with Government of Nepal holidays, festivals and tithi. Works offline.
-[nepali-calendar.sarthaksharma.com.np](https://nepali-calendar.sarthaksharma.com.np/)
+[patrobar.sarthaksharma.com.np](https://patrobar.sarthaksharma.com.np/)
 
 ## Install
 
