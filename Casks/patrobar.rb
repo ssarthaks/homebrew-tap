@@ -22,15 +22,11 @@ cask "patrobar" do
   app "Patrobar.app"
 
   # macOS 13+ registers "Open at login" with SMAppService, which macOS removes with the app.
-  # macOS 11-12 use a LaunchAgent labelled "Sajilo Patro" (the app's name before 2.4.0; the label is
-  # kept so existing login items keep working).
-  uninstall launchctl: "Sajilo Patro",
-            quit:      "np.com.sarthaksharma.sajilopatro"
+  uninstall quit: "np.com.sarthaksharma.sajilopatro"
 
   zap trash: [
     "~/Library/Application Support/np.com.sarthaksharma.sajilopatro",
     "~/Library/Caches/np.com.sarthaksharma.sajilopatro",
-    "~/Library/LaunchAgents/Sajilo Patro.plist",
     "~/Library/Preferences/np.com.sarthaksharma.sajilopatro.plist",
     "~/Library/WebKit/np.com.sarthaksharma.sajilopatro",
   ]

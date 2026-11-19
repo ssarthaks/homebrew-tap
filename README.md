@@ -14,9 +14,6 @@ This taps `ssarthaks/tap` and, on Homebrew 7 or later, also trusts the `patrobar
 only loads casks from taps you trust). Use the full name above for the first install; after that the
 short name `patrobar` works.
 
-Patrobar was called Sajilo Patro before version 2.4.0. The old cask name `sajilo-patro` now points
-to `patrobar` (`cask_renames.json`), so existing installs keep upgrading.
-
 ## Upgrade
 
 ```bash
