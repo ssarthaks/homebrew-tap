@@ -1,41 +1,37 @@
-# Homebrew tap: Patrobar
+# Homebrew tap: Sarthak Labs
 
-**Patrobar** (Nepali Calendar) by Sarthak Sharma: a free macOS menu bar Bikram Sambat (BS)
-calendar with Government of Nepal holidays, festivals and tithi. Works offline.
-[patrobar.sarthaksharma.com.np](https://patrobar.sarthaksharma.com.np/)
+Official Homebrew tap for macOS applications built by [Sarthak Sharma](https://sarthaksharma.com.np/) under **Sarthak Labs**.
 
-## Install
+## Applications
+
+### ClipBar — Clipboard Manager
+Native Swift 6 menu bar clipboard manager with cursor-anchored quick access (`⇧⌘C`), `1.5s` hover preview, Full Library (`⌘L`), and local SQLite FTS5 search.  
+[clipbar.sarthaksharma.com.np](https://clipbar.sarthaksharma.com.np/) · Requires macOS 14 Sonoma or later (Apple Silicon & Intel)
+
+```bash
+brew install --cask ssarthaks/tap/clipbar
+```
+
+### Patrobar — Nepali Calendar
+Free, lightweight, offline menu bar Bikram Sambat (BS) calendar with Government of Nepal holidays, festivals, desktop widgets, and tithi.  
+[patrobar.sarthaksharma.com.np](https://patrobar.sarthaksharma.com.np/) · Requires macOS 11 Big Sur or later (Apple Silicon & Intel)
 
 ```bash
 brew install --cask ssarthaks/tap/patrobar
 ```
 
-This taps `ssarthaks/tap` and, on Homebrew 7 or later, also trusts the `patrobar` cask (Homebrew
-only loads casks from taps you trust). Use the full name above for the first install; after that the
-short name `patrobar` works.
-
-## Upgrade
+## Upgrade & Uninstall
 
 ```bash
 brew update
+brew upgrade --cask clipbar
 brew upgrade --cask patrobar
-```
 
-## Uninstall
-
-```bash
-brew uninstall --cask patrobar
-# also remove settings, the licence file and the login item:
-brew uninstall --zap --cask patrobar
+# Uninstall (add --zap to remove local settings & app data):
+brew uninstall --cask clipbar
+brew uninstall --zap --cask clipbar
 ```
 
 ## First launch
 
-Releases are not yet signed with an Apple Developer ID or notarized by Apple, so macOS blocks the
-first launch. Open **System Settings → Privacy & Security**, scroll to the message about
-Patrobar and click **Open Anyway**, then confirm. You only need to do this once per version.
-Only do this for apps you trust and installed from this tap.
-
-Requirements: macOS 11 Big Sur or later, on Apple Silicon or Intel.
-
-`Casks/patrobar.rb` is updated for every release (automatically once the release workflow has its tap token).
+Releases are not yet signed with an Apple Developer ID or notarized by Apple, so macOS blocks the first launch. Open **System Settings → Privacy & Security**, scroll to the message about ClipBar or Patrobar, click **Open Anyway**, and confirm. You only need to do this once per version.
