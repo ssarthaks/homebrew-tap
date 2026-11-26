@@ -1,6 +1,6 @@
 cask "patrobar" do
-  version "3.0.1"
-  sha256 "b570836736dfeded994f770bc4e76cbe23d905e15ccafd19887d53cb9437c2a7"
+  version "3.1.0"
+  sha256 "86e5c12c40c8d69d1bcaba6107da3a045452714a8142986c9e0d07dff11230e7"
 
   url "https://github.com/ssarthaks/nepali-calendar-dmg/releases/download/desktop-v#{version}/Patrobar-#{version}.dmg"
   name "Patrobar"
