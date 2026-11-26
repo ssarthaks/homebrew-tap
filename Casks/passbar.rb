@@ -1,6 +1,6 @@
 cask "passbar" do
   version "1.0.0"
-  sha256 "dea53da4205c232d2e75d76d1528585793c2211f06da7d57314ab09810d215ca"
+  sha256 "2eb7259077271bdc4bb31d0b0c9f4bd6c9e68acba4554b11c205066f5f20cf9a"
 
   url "https://github.com/ssarthaks/passbar-dmg/releases/download/v#{version}/PassBar-#{version}.dmg"
   name "PassBar"
