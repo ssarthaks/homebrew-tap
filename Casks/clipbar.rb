@@ -1,6 +1,6 @@
 cask "clipbar" do
-  version "1.0.0"
-  sha256 "fab8b85c61a97bb7e4a82893a57ccf1bdf8b39981d3062f81ea488c058988ef4"
+  version "1.1.0"
+  sha256 "4d8a5021063a69323fd042b50e0e6c94a139cfc247dbc303344d8fc8147a3748"
 
   url "https://github.com/ssarthaks/clipbar-dmg/releases/download/v#{version}/ClipBar-#{version}.dmg"
   name "ClipBar"
