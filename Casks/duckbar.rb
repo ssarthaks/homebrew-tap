@@ -1,6 +1,6 @@
 cask "duckbar" do
-  version "1.0.6"
-  sha256 "f63a25ef7ef3e05a8673333c4516aaaf54ca43167ca41433a220f6af4fd4480d"
+  version "1.0.7"
+  sha256 "e346eb7a490f88d6d3da0df113f31dedad4e30d7b0cb2043a887cbee8fff2db2"
 
   url "https://github.com/ssarthaks/your-macos-duck/releases/download/v#{version}/DuckBar-#{version}.dmg"
   name "DuckBar"
