@@ -20,12 +20,21 @@ Free, lightweight, offline menu bar Bikram Sambat (BS) calendar with Government 
 brew install --cask ssarthaks/tap/patrobar
 ```
 
+### DuckBar — Desktop Duck
+Chaotic desktop pet for macOS with first-launch Shuba Duck / Cozy Duckling picker, 2D screen roaming, and wall-bouncing throw physics.  
+[github.com/ssarthaks/your-macos-duck](https://github.com/ssarthaks/your-macos-duck) · Requires macOS 14 Sonoma or later (Apple Silicon & Intel)
+
+```bash
+brew install --cask ssarthaks/tap/duckbar
+```
+
 ## Upgrade & Uninstall
 
 ```bash
 brew update
 brew upgrade --cask clipbar
 brew upgrade --cask patrobar
+brew upgrade --cask duckbar
 
 # Uninstall (add --zap to remove local settings & app data):
 brew uninstall --cask clipbar
