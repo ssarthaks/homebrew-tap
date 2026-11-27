@@ -21,7 +21,7 @@ brew install --cask ssarthaks/tap/patrobar
 ```
 
 ### DuckBar — Desktop Duck
-Chaotic desktop pet for macOS with first-launch 3D White Duck / Cozy Duckling picker, 2D screen roaming, and wall-bouncing throw physics.  
+Chaotic desktop pet for macOS with first-launch picker (Shuba Duck, Yellow Duckling, or 3D White Duck), 2D screen roaming, and wall-bouncing throw physics.  
 [github.com/ssarthaks/your-macos-duck](https://github.com/ssarthaks/your-macos-duck) · Requires macOS 14 Sonoma or later (Apple Silicon & Intel)
 
 ```bash
